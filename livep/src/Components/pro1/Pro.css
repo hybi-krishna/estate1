@@ -28,14 +28,14 @@ ul li a{
     font-weight: 400;
 }
 .navbar{
-    z-index: 1;
+    z-index: 2;
     position: fixed;
     width: 100%;
     top: 0;
 }
 .navbar.scrolled{
     background-color: rgb(50, 49, 49);
-    z-index: 1;
+    z-index: 2;
     
 }
 .button{
@@ -76,7 +76,7 @@ ul li a{
     margin-left: 260px;
     margin-top: 100px;
     background: rgb(237,164,25);
-background: linear-gradient(90deg, rgba(237,164,25,1) 37%, rgba(247,207,84,1) 100%);
+    background: linear-gradient(90deg, rgba(237,164,25,1) 37%, rgba(247,207,84,1) 100%);
     border-radius: 50%;
 }
 .fd-up{
@@ -526,7 +526,7 @@ footer p{
     display: none;
 }
 .nav-mob{ 
-    z-index: 1;
+    z-index: 2;
     background-color: white;
     border-radius: 30px;
     text-align: center;
